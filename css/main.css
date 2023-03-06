@@ -1,0 +1,29 @@
+
+
+/* ===============================
+Основные стили
+=============================== */
+
+body {
+  background-color: #eee;
+}
+
+
+/* ===============================
+Карусель
+=============================== */
+
+.carousel-inner { height: 500px; }
+
+@media (min-width: 1100px) {
+  .carousel-inner img {
+    transform: translateY(-30%);
+    width: 100%; height: auto;
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+}
