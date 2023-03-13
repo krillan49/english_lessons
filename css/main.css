@@ -10,10 +10,16 @@ body {
 
 
 /* ===============================
-Карусель
+Карусель  index.html
 =============================== */
 
 .carousel-inner { height: 500px; }
+@media (max-width: 700px) {
+  .carousel-inner { height: 300px; }
+}
+@media (max-width: 500px) {
+  .carousel-inner { height: 200px; }
+}
 
 @media (min-width: 1100px) {
   .carousel-inner img {
@@ -27,3 +33,33 @@ body {
   top: 50%;
   transform: translateY(-90%);
 }
+
+
+/* ===============================
+Наши преимущества index.html
+=============================== */
+
+#teaser {
+  padding: 6rem 0;
+}
+
+#teaser>div>div {
+  padding: 3rem 0;
+}
+
+#teaser img {
+  width: 19rem;
+  height: 19rem;
+  padding: 1.5rem;
+}
+
+
+/* ===============================
+Информация о преподавателе index.html
+=============================== */
+
+#teacher_info {
+  padding: 6rem 0;
+}
+
+#teacher_info img { height: 30rem;}
