@@ -39,18 +39,33 @@ body {
 Наши преимущества index.html
 =============================== */
 
-#teaser {
-  padding: 6rem 0;
-}
+#teaser { padding: 6rem 0 0 0; }
 
-#teaser>div>div {
-  padding: 3rem 0;
-}
+#teaser>div>div { padding: 3rem 0; }
 
-#teaser img {
-  width: 19rem;
-  height: 19rem;
-  padding: 1.5rem;
+#teaser>div>div>div { padding: 1.5rem;}
+
+#teaser img { opacity: 0.9; }
+
+#teaser h4 { margin-top: 1.5rem ;}
+
+
+/* ===============================
+Блок с фиксированной картинкой index.html
+=============================== */
+
+#fixed-1 {
+  background: url('../img/fixed-1.jpg') no-repeat center center;
+  height: 35rem;
+  background-size: cover; 
+	-o-background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+
+  color: white;
+  text-shadow: 1px 1px 10px silver;
+  padding-top: 7rem;
 }
 
 
@@ -58,8 +73,26 @@ body {
 Информация о преподавателе index.html
 =============================== */
 
-#teacher_info {
-  padding: 6rem 0;
-}
+#teacher_info { padding: 6rem 0; }
 
-#teacher_info img { height: 30rem;}
+#teacher_info h1 { margin-bottom: 2rem; }
+
+
+/* ===============================
+Блок с фиксированной картинкой 2 index.html
+=============================== */
+
+#fixed-2 {
+  background: lightblue url('../img/fixed-2.jpeg') no-repeat center center;
+  height: 25rem;
+  background-size: cover; 
+	-o-background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  color: white;
+  text-shadow: 1px 1px 10px white;
+  padding-top: 9rem;
+}
