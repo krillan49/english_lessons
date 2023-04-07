@@ -96,3 +96,50 @@ body {
   text-shadow: 1px 1px 10px white;
   padding-top: 9rem;
 }
+
+/* ===============================
+информационный блок  index.html
+=============================== */
+
+#info-q { margin-top: 5rem; margin-bottom: 5rem;}
+
+/* ===============================
+Блок с фиксированной картинкой 3 index.html
+=============================== */
+
+#fixed-3 {
+  background: lightblue url('../img/fixed-3.jpg') no-repeat center center;
+  height: 25rem;
+  background-size: cover; 
+	-o-background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  color: white;
+  text-shadow: 1px 1px 10px white;
+  padding-top: 9rem;
+}
+
+
+/* ===============================
+Футер
+=============================== */
+
+footer { padding: 3rem; margin-top: 3rem;}
+
+footer a { margin-left: 3rem;}
+
+.fa1 { font-size: 4rem; }
+
+.fa-vk { color: #4C75A3 }
+.fa-facebook-official { color: #1877F2 }
+.fa-telegram { color: #0088cc; }
+.fa-whatsapp { color: #25D366 }
+
+.fa1:hover { color: white; }
+
+@media (min-width: 350px) {  
+  .fa2 { font-size: 1.5rem; }
+}
